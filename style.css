@@ -1,0 +1,233 @@
+@media only screen and (max-width:400000px){
+#hi{
+    height: 40%;
+    width: 100%;
+
+}
+body{
+    background-color: rgb(114, 110, 110);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: hi 0,5 timing-function delay iteration-count direction fill-mode;
+overflow-x: hidden;
+height: 110vh;
+margin: 0;
+padding: 0;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    bottom: 500px;
+    z-index: 5;
+    left: 75%;
+   font-size: 60px;
+    
+}
+#h2o{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: none;
+    border: solid;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    position: fixed;
+   z-index: 2;
+   margin-left: 93%;
+}
+.email-button:hover {
+  transform: scaley(0.5);
+  transition: 1s;
+}
+#myBtn {
+    position: fixed;
+    padding: 10px 20px;
+    font-size: 16px;
+background: none;
+    color: #fff;
+    border: solid;
+    cursor: pointer;
+    border-radius: 100px;
+    z-index: 5;
+   
+}
+#jj{
+    font-size: 30px;
+    position: absolute;
+    top: 104%;
+}
+
+
+
+#back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%; /* Make the image cover the entire container */
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+    border-radius: 5px;
+}
+h2{
+    z-index: 3;
+    position: absolute;
+    top: 350px;
+    left: 75%;
+    color: #fff;
+    font-size: 35px;
+}
+.blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: #adb9ca;
+    width: 50vmax;
+    z-index: 1;
+    animation: move 10s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    width: 400px;
+    left: 16%;
+    top: 19%;
+  }
+  
+  @keyframes move {
+    0%   { transform: scale(1.1)   translate(10px, -20px); }    
+  }
+
+  #ff{
+    z-index: 5;
+    position: absolute;
+    width: 300px;
+    top: 23%;
+    border-radius: 50px;
+    left: 20%;
+   
+   
+  }
+}
+ @media only screen and (max-width: 430px) {
+  
+    #hi{
+        height: 40%;
+        width: 100%;
+    
+    }
+    body{
+        background-color: rgb(114, 110, 110);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        animation: hi 0,5 timing-function delay iteration-count direction fill-mode;
+    overflow-x: hidden;
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+    }
+    
+    h1{
+        color: white;
+        position: absolute;
+        bottom: 470px;
+        z-index: 5;
+        left: 75%;
+       font-size: 30px;
+        
+    }
+    #h2o{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    
+    
+    .email-button {
+        display: inline-block;
+        padding: 10px 20px;
+   
+        color: #fff;
+        text-decoration: none;
+        border-radius: 100px;
+        position: fixed;
+       z-index: 2;
+       margin-left: 80%;
+       border: solid;
+    color: #fff;
+    }
+    
+    #myBtn {
+        position: fixed;
+        padding: 10px 20px;
+        font-size: 16px;
+     
+        border: solid;
+        color: #fff;
+      
+        cursor: pointer;
+        border-radius: 100px;
+        z-index: 5;
+       
+    }
+    
+    
+   
+    #back{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%; /* Make the image cover the entire container */
+        object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+        border-radius: 5px;
+    }
+    h2{
+        z-index: 3;
+        position: absolute;
+        top: 500px;
+        left: 20%;
+        color: #fff;
+        font-size: 25px;
+    }
+    .blob {
+        position: absolute;
+        top: 0;
+        left: 0;
+        fill: #adb9ca;
+        width: 50vmax;
+        z-index: 1;
+        animation: move 10s ease-in-out infinite;
+        transform-origin: 50% 50%;
+        width: 300px;
+        left: 13%;
+        top: 19%;
+      }
+      
+      @keyframes move {
+        0%   { transform: scale(1.1)   translate(10px, -20px); }    
+      }
+    
+      #ff{
+        z-index: 5;
+        position: absolute;
+        width: 200px;
+        top: 25%;
+        border-radius: 50px;
+        left: 25%;
+       
+      }    
+ }
+ 
