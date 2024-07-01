@@ -14,7 +14,7 @@
     <h1 >مكتب محاماة انور ابو لافي </h1>
     <img id="ff" src="aaa.png" alt="">
     <div class="law">
-<a class="email-button" href="Anwar.abulafi@gmail.com">Email</a>
+<button class="email-button" onclick="sendEmail()">Email</button>
     <button id="myBtn">Number</button>
    </div>
    <h2>اختصاص ملفات الأضرار الجسديه والماليه والحوادث والأخطاء الطبية</h2>
@@ -28,6 +28,16 @@
         button.addEventListener('mouseout', function() {
             button.innerText = 'Number';
         });
+         function sendEmail() {
+    // Replace with the recipient's email address
+    var emailAddress = "Anwar.abulafi@gmail.com";
+    
+    // Creating the mailto link
+    var mailtoLink = "mailto:" + emailAddress;
+    
+    // Opening the default email client
+    window.location.href = mailtoLink;
+}
     </script>
     <div class="blob">
         <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
